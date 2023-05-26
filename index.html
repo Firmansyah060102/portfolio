@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>firman06</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Animasi untuk judul */
+        .fade-in {
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Animasi untuk thumbnail proyek */
+        .zoom-in {
+            animation: zoomIn 0.5s;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Portofolio Saya</h1>
+    </header>
+    <section>
+        <h2>Proyek</h2>
+        <div class="project">
+            <img src="keripik.jpeg" class="zoom-in" alt="Proyek 1">
+            <h3>Proyek 1</h3>
+            <p>Deskripsi proyek 1.</p>
+        </div>
+        <div class="project">
+            <img src="babi.jpg" class="zoom-in" alt="Proyek 2">
+            <h3>Proyek 2</h3>
+            <p>Deskripsi proyek 2.</p>
+        </div>
+    </section>
+    <footer>
+        <p>Hak Cipta &copy; 2023 - Firmansyah</p>
+    </footer>
+</body>
+</html>
